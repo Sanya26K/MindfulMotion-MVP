@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Assessment - MindfulMotion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E6E6FA; /* Lilac background */
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #4B0082; /* Dark purple color */
+            text-align: center;
+        }
+
+        p {
+            color: #4B0082;
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
+        .question {
+            margin-bottom: 1.5em;
+            padding: 10px;
+            border: 1px solid #4B0082;
+            border-radius: 5px;
+            background-color: #F3E5F5;
+        }
+
+        .question p {
+            margin-bottom: 0.5em;
+            color: #4B0082;
+        }
+
+        .scale {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1em;
+        }
+
+        .scale label {
+            color: #4B0082;
+            margin: 0 10px;
+        }
+
+        .scale input[type="range"] {
+            flex-grow: 1;
+            margin: 0 10px;
+        }
+
+        button {
+            background-color: #4B0082;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: auto;
+        }
+
+        button:hover {
+            background-color: #6A0DAD;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mental Health Assessment</h1>
+        <p>Take a few moments to reflect on your mental health status</p>
+        <form>
+            <div class="question">
+                <p>1. I feel overwhelmed by my emotions.</p>
+                <div class="scale">
+                    <label>Strongly Disagree</label>
+                    <input type="range" min="1" max="5">
+                    <label>Strongly Agree</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>2. I am able to handle the level of stress I experience.</p>
+                <div class="scale">
+                    <label>Strongly Disagree</label>
+                    <input type="range" min="1" max="5">
+                    <label>Strongly Agree</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>3. I have physical symptoms of anxiety, such as sweaty palms.</p>
+                <div class="scale">
+                    <label>Strongly Disagree</label>
+                    <input type="range" min="1" max="5">
+                    <label>Strongly Agree</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>4. I have strong relationships with people I care about.</p>
+                <div class="scale">
+                    <label>Strongly Disagree</label>
+                    <input type="range" min="1" max="5">
+                    <label>Strongly Agree</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>5. I've made many terrible decisions in my life.</p>
+                <div class="scale">
+                    <label>Strongly Disagree</label>
+                    <input type="range" min="1" max="5">
+                    <label>Strongly Agree</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>6. I am very self-critical.</p>
+                <div class="scale">
+                    <label>Strongly Disagree</label>
+                    <input type="range" min="1" max="5">
+                    <label>Strongly Agree</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>7. I cannot get beyond long-past traumatic events or significant losses.</p>
+                <div class="scale">
+                    <label>Strongly Disagree</label>
+                    <input type="range" min="1" max="5">
+                    <label>Strongly Agree</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>8. I am able to identify and express my emotions.</p>
+                <div class="scale">
+                    <label>Strongly Disagree</label>
+                    <input type="range" min="1" max="5">
+                    <label>Strongly Agree</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>9. I frequently drink alcohol and/or use recreational drugs.</p>
+                <div class="scale">
+                    <label>Strongly Disagree</label>
+                    <input type="range" min="1" max="5">
+                    <label>Strongly Agree</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>10. I procrastinate and/or avoid dealing with important things in my life.</p>
+                <div class="scale">
+                    <label>Strongly Disagree</label>
+                    <input type="range" min="1" max="5">
+                    <label>Strongly Agree</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>11. I have a sense of purpose in life.</p>
+                <div class="scale">
+                    <label>Strongly Disagree</label>
+                    <input type="range" min="1" max="5">
+                    <label>Strongly Agree</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>12. I get upset or angry easily.</p>
+                <div class="scale">
+                    <label>Strongly Disagree</label>
+                    <input type="range" min="1" max="5">
+                    <label>Strongly Agree</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>13. I've noticed changes in my appetite or sleep patterns relative to when I was at my best.</p>
+                <div class="scale">
+                    <label>Strongly Disagree</label>
+                    <input type="range" min="1" max="5">
+                    <label>Strongly Agree</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>14. I manage my time and my obligations; most days life feels under control.</p>
+                <div class="scale">
+                    <label>Strongly Disagree</label>
+                    <input type="range" min="1" max="5">
+                    <label>Strongly Agree</label>
+                </div>
+            </div>
+
+            <button type="submit">Submit Assessment</button>
+        </form>
+    </div>
+</body>
+</html>

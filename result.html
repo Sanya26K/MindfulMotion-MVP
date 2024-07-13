@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment Results - MindfulMotion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E6E6FA; /* Lilac background */
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #4B0082; /* Dark purple color */
+            text-align: center;
+        }
+
+        .score-circle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .score {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 10px solid #4B0082;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            color: #4B0082;
+            background-color: #F3E5F5;
+        }
+
+        .score-description {
+            text-align: center;
+            font-size: 1.2em;
+            color: #4B0082;
+        }
+
+        .score-legend {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #4B0082;
+            border-radius: 5px;
+            background-color: #F3E5F5;
+            color: #4B0082;
+        }
+
+        .positive-solutions, .next-steps {
+            margin-top: 20px;
+        }
+
+        .solution, .step {
+            margin-bottom: 1em;
+            padding: 10px;
+            border: 1px solid #4B0082;
+            border-radius: 5px;
+            background-color: #F3E5F5;
+        }
+
+        .solution p, .step p {
+            margin: 0.5em 0;
+            color: #4B0082;
+        }
+
+        button {
+            background-color: #4B0082;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: auto;
+        }
+
+        button:hover {
+            background-color: #6A0DAD;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Assessment Results</h1>
+        <div class="score-circle">
+            <div class="score">85</div>
+        </div>
+        <div class="score-description">Your Score</div>
+        <div class="score-legend">
+            <p>20-39 — Struggling</p>
+            <p>40-54 — Struggling somewhat</p>
+            <p>55-74 — Coping</p>
+            <p>75-89 — Coping well</p>
+            <p>90-100 — Flourishing</p>
+        </div>
+
+        <div class="positive-solutions">
+            <h2>Make a Change Now</h2>
+            <div class="solution">
+                <p>Embrace a healthier lifestyle with MindfulMotion. Our integrated approach combines personalized fitness plans with mental wellness support, ensuring you achieve comprehensive well-being. Here are some steps to guide you:</p>
+            </div>
+        </div>
+
+        <div class="next-steps">
+            <h2>Next Steps</h2>
+            <div class="step">
+                <p><strong>Physical Workouts:</strong> Engage in regular physical activity to release endorphins, which are known as the "feel-good" hormones. Our customized workout plans are designed to improve your physical and mental health.</p>
+            </div>
+            <div class="step">
+                <p><strong>Mindfulness:</strong> Practice mindfulness to stay present and reduce stress. Our mindfulness exercises help in managing anxiety and promoting mental clarity.</p>
+            </div>
+            <div class="step">
+                <p><strong>Meditation Videos:</strong> Follow our guided meditation videos to achieve inner peace and mental relaxation. Meditation can significantly reduce symptoms of anxiety and depression.</p>
+            </div>
+            <div class="step">
+                <p><strong>Diet Plans:</strong> Adhere to our personalized diet plans to nourish your body and mind. A balanced diet can improve mood and energy levels, supporting overall well-being.</p>
+            </div>
+        </div>
+
+        <button type="button" onclick="location.href='features.html'">Return to Dashboard</button>
+    </div>
+</body>
+</html>
