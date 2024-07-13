@@ -1,23 +1,12 @@
 {
     "rewrites": [
-      { "source": "/", "destination": "/WelcomePage/iOSdev.html" },
-      { "source": "/Login", "destination": "/LandingPage/Login.html" },
-      { "source": "/Reset", "destination": "/LandingPage/Reset.html" },
-      { "source": "/Sign-Up", "destination": "/LandingPage/Sign up.html" },
-      { "source": "/UI", "destination": "/LandingPage/UI.html" },
-      { "source": "/Content", "destination": "/ContentPage/contentpage.html" },
-      {
-        "source": "/Certificate",
-        "destination": "/CertificatePage/certificate.html"
-      },
-      {
-        "source": "/Home",
-        "destination": "/HomePage/homepage.html"
-      },
-      {
-        "source": "/Feedback",
-        "destination": "/FeedbackPage/feedback.html"
-      },
-      { "source": "/TestPage", "destination": "/TestPage/index.html" }
+      { "source": "/", "destination": "/index.html" },
+      { "source": "/features", "destination": "/features.html" },
+      { "source": "/faq", "destination": "/faq.html" },
+      { "source": "/result", "destination": "/result.html" },
+      { "source": "/workout", "destination": "/workout.html" },
+      { "source": "/yoga", "destination": "/yoga.html" },
+      { "source": "/assessment", "destination": "/assessment.html" },
+      { "source": "/mealPlan", "destination": "/mealPlan.html" }
     ]
   }
